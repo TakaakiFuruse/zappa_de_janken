@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import request
-from lib.janken import Hand, Rock, Paper, Scissor
+from libs.janken import Hand, Rock, Paper, Scissor
 import random
 
 app = Flask(__name__)
